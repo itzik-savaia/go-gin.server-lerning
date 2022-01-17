@@ -1,0 +1,11 @@
+GET http://localhost:8080/videos HTTP/1.1
+###
+
+POST http://localhost:8080/videos HTTP/1.1
+content-type: application/json
+
+{
+    "title": "title3",
+    "description": "description",
+    "url": "url"
+}
